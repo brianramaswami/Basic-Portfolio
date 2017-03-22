@@ -1,9 +1,124 @@
-#myname{
-color: white;
-background-color: #4aaaa5;
+body{
+	background-image: url("../images/backgroundimage.png");
+}
+
+#headerblock{
+position: relative;
+box-sizing: border-box;
+background-color: white;
+border: 1px #dddddd;
+height: 92px;
+width: 100%;
+margin-top: -8px;
+margin-left: -8px;
 
 }
 
-body{
-	background-image: url(Basic-Portfolio/assets/images/backgroundimage.png);
+
+.aboutMe{
+box-sizing: border-box;
+width:  250px;
+height: 90px;
+left: 255px;
+margin-left: 50px;
+background-color: #4aaaa5;
+}
+
+#myname{
+margin-top: 0px;
+margin-bottom: 0px;
+color: white;
+font-family: 'serif';
+text-align: center;
+padding-top: 10px;
+}
+.tabs{
+	box-sizing: border-box;
+	width: 200px;
+	height: 25px;
+	position: relative;
+	border-color: black;
+	border: 1px;
+	background-color: white;
+	left: 60%;
+	bottom: 60%
+	
+	
+}
+
+#About{
+	left: -50px;
+}
+
+a:link{ 
+ text-decoration: none;
+ color: black;
+}
+
+
+#block2{
+box-sizing: border-box;
+background-color: white;
+border: 1px solid black;
+margin-left: 160px;
+margin-top: 40px;
+width: 650px;
+height: 480px;
+float: left;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+#about_me{
+	color:#4aaaa5;
+	font-family:'Georgia';
+}
+
+#line{
+border-width: 2px;
+}
+
+#biopic{
+	float: left;
+}
+
+#bio{
+
+}
+
+#block3{
+box-sizing: border-box;
+background-color: white;
+border: 1px solid black;
+width: 270px;
+height: 200px;
+float: left;
+text-align: center;
+margin-left: 40px;
+margin-top: 40px;
+margin-right: 140px;
+color: #4aaaa5;
+}
+
+#another_line{
+margin-left: 50px;
+margin-right: 50px;
+
+}
+b
+#contactlinks{
+	margin-top: 40px;
+}
+
+#Footer{
+	box-sizing: border-box;
+	background-color: gray;
+	border-color: gray;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	border-top: 10px  solid #4aaaa5;
+
 }
